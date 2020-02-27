@@ -1,0 +1,88 @@
+{
+    "songs":[
+        {
+            "id": 0,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-01.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura I: Ciencia",
+            "image": "https://dummyimage.com/200x200/2b7be3/000000"
+          },
+          {
+            "id": 1,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-02.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura II: Verrugas",
+            "image": "https://dummyimage.com/200x200/28c9c4/000000"
+          },
+          {
+            "id": 2,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-03.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura III: Migración",
+            "image": "https://dummyimage.com/200x200/28c76f/000000"
+          },
+          {
+            "id": 3,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-04.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura IV: EVA",
+            "image": "https://dummyimage.com/200x200/2ac737/000000"
+          },
+          {
+            "id": 4,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-05.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura V: La Luna",
+            "image": "https://dummyimage.com/200x200/e32b84/000"
+          },
+          {
+            "id": 5,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-06.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura VI: Dormir para crecer",
+            "image": "https://dummyimage.com/200x200/652be3/000000"
+          },
+          {
+            "id": 6,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-07.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura VII: Hoyos negros",
+            "image": "https://dummyimage.com/200x200/5dc72c/000000"
+          },
+          {
+            "id": 7,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-08.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura VIII: Plagas",
+            "image": "https://dummyimage.com/200x200/aec72e/000000"
+          },
+          {
+            "id": 8,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-09.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura IX: Cambio climatico",
+            "image": "https://dummyimage.com/200x200/c7a930/000000"
+          },
+          {
+            "id": 9,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-10.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura X: Animales prehistoricos",
+            "image": "https://dummyimage.com/200x200/c73e32/000000"
+          },
+          {
+            "id": 10,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-11.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura XI: Primates(I)",
+            "image": "https://dummyimage.com/200x200/e65566/000000"
+          },
+          {
+            "id": 11,
+            "song": "https://www.alasyraices.gob.mx/audio/travesuras/TRAVESURAS-12.mp3",
+            "artist": "Paulo y Carola",
+            "nombre": "Travesura XII: Primates(II)",
+            "image": "https://dummyimage.com/200x200/0a0909/000000"
+          }
+    ]
+}

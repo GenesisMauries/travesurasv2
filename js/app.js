@@ -31,7 +31,7 @@ const genLinst= (music)=>{
 }
 // Peticion
 const getSongs = () =>{
-   fetch("/js/app.json",{})
+   fetch("js/app.json",{})
    .catch(error => console.log(`Tienes este problemita: ${error.message}`))
     .then((response) => response.json())
     .then(datos => {music= datos; genLinst(music)})

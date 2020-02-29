@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.min.css">
     <title>Travesuras en la ciencia</title>
 </head>
 <body>
     <section class="container-fluid logo"></section>
-
     <section class="container-fluid ">
         <!-- Titulo -->
         <section class="row text-center">
@@ -53,47 +52,62 @@
             </div>
         </section>
         <!-- Sub Menú -->
-        <div class="container">
-            <ul class="nav justify-content-end">
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Radio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Juegos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Videos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Experimentos</a>
-                  </li>
-              </ul>
-        </div>
-        
+        <section class="container ">
+            <nav class="navbar navbar-expand-lg ">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <section class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto ">
+                        <li class="nav-item">
+                        <a class="nav-link " href="#">Inicio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " href="#">Juegos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link " href="#">Apps</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Radio</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Categorías
+                            </a>
+                            <section class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#"><i class="fas fa-map-marked-alt"></i>&#32;Saberes locales</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-female"></i>&#32;Ser niña y ser mujer</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-flask"></i>&#32;Ciencia exacta</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-table-tennis"></i>&#32;Juegos</a>
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+        </section>
         <section class="row mt-5 justify-content-center mb-5">
             <!-- Texto -->
             <section class="col-xl-4 col-lg-4 col-md-10 col-sm-10 col-xs-10">
                 <h4 class="text-left">Descubre una capsúla de ciencia todos los días</h4>
-                <p>Conoce a Carola y a Paulo y acompáñalos en su loca carrera por el conocimiento, la ciencia, los saberes tradicionales y más. Todos aprendemos de todos.</p>
+                <p class="text-justify">Conoce a Carola y a Paulo y acompáñalos en su loca carrera por el conocimiento, la ciencia, los saberes tradicionales y más. Todos aprendemos de todos.</p>
                 <p>Sólo escucha, se vale cerrtar los ojos para imaginar.</p>
             </section>
-            <section class="col-xl-3 col-lg-4 col-md-6 col-sm-10 mt-md-5 mt-sm-2 text-center">
-                <!-- <img src="https://www.alasyraices.gob.mx/img/cartelera/Pininos/sofipeque.png" alt="" srcset="" style="width: 250px;"> -->
-                <img  src="https://dummyimage.com/200x200/000/fff" id="img-album"/>
-                <audio class="mt-2" id="player" controls=""></audio>
-                <p id="title"></p>
+            <!-- Reproductor -->
+            <section class="col-xl-6 col-lg-6 col-md-10 col-sm-10 col-xs-10 mt-1 d-flex justify-content-center">
+                <section class="card" style="width: 19rem;">
+                    <img class="card-img-top"  src="https://dummyimage.com/200x200/000/fff" id="img-album" alt="Card image cap"/>
+                    <audio  id="player" controls=""></audio>
+                    <section class="card-body">
+                        <ul class="list-group list-group-flush" id="playlist"></ul>
+                    </section>
+                </section>
             </section>
-            <section class="col-xl-3 col-lg-4 col-md-6 col-sm-10 mt-sm-3">
-                <!-- <button class="btn btn-success" id="shuffle"><i class="fa fa-random"></i></button> -->
-                <ul class="list-group list-group-flush" id="playlist"></ul>
-            </section>
+        </section>
     </section>
-</section>
-
-<!-- <script
-  src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
-  crossorigin="anonymous"></script> -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/d03c13a089.js" crossorigin="anonymous"></script>
